@@ -5,6 +5,7 @@ version: '3.0'
    dockerfile: Dockerfile
   volumes:
    - ../weibo:/weibo
-
+ redis:
+  image: redis:latest
 
 

@@ -23,7 +23,7 @@ class Weibo(object):
         }
         self.logger = MyLogger('weibo').get_logger()
         self.cookie_path = 'cookies'
-        self.conn = redis.Redis(connection_pool=redis.ConnectionPool(host='127.0.0.1', port=6379, decode_responses=True))
+        self.conn = redis.Redis(connection_pool=redis.ConnectionPool(host='redis', port=6379, decode_responses=True))
         self.cookies = self.get_cookies()
 
     def get_account(self, filename):
