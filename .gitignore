@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+.vscode
+*.pyc
+*.log
+*.jpg
+*.png
+*.exe
+*.json
+__pycache__
+
+
+venv
+driver
+log
+pic
+account
+cookies
+

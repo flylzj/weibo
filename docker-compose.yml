@@ -1,0 +1,10 @@
+version: '3.0'
+ weibo:
+  build:
+   context: .
+   dockerfile: Dockerfile
+  volumes:
+   - ../weibo:/weibo
+
+
+
